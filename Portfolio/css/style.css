@@ -354,6 +354,7 @@ header .navbar ul li a:hover{
 }
 
 .projects .box-container .box h3{
+    margin-top: 2rem;
     font-size: 2rem;
     color: #fff;
     padding-top: 1.5rem;
@@ -363,6 +364,7 @@ header .navbar ul li a:hover{
     font-size: 1.4rem;
     color: #eee;
     padding: 1rem 0;
+    text-transform: none;
 }
 
 .projects .box-container .box:hover img{
