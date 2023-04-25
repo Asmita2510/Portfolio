@@ -371,6 +371,48 @@ header .navbar ul li a:hover{
     transform: scale(1.2);
 }
 
+.certifications .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.certifications .box-container .box{
+    height: 20rem;
+    width: 25rem;
+    border-radius: 1rem;
+    margin: 7rem;
+    
+    cursor: pointer;
+}
+
+.certifications .box-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit:contain;
+}
+
+.certifications .box-container .box h3{
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: #fff;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+}
+
+.certifications .box-container .box p{
+    font-size: 1.4rem;
+    color: #eee;
+    padding: 1rem 0;
+    text-transform: none;
+}
+
+.certifications .box-container .box:hover img{
+    transform: scale(1.2);
+}
+
 .contact .row{
     display: flex;
     align-items: center;
